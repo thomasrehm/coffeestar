@@ -1,0 +1,72 @@
+html, body, {
+    /*height: 100%;*/
+   
+}
+
+#map{
+	height:90%;
+	position: absolute;
+	top: 40px;
+}
+
+
+#index {
+    height: 80%;
+    padding: 0;
+}
+.Caffeeliste {
+	max-height: 10%;
+	padding: 0px 9px 40px 9px ;
+}
+.liste {
+
+    padding: 0px 9px 0px 9px ;
+}
+
+
+.hinweis{
+	padding: 4px 20px 5px 20px;
+	line-height: 1.4em;
+	color: #FFF;
+	background-color: rgba(47,67,42,0.8); 
+
+		
+}
+.Caffeeliste p, .liste p{
+	padding-left: 15px;
+	padding-right: 10px;
+	word-break: break-all;
+
+	
+}
+
+
+.foot{/*margin-bottom:30px; */margin-bottom:0;
+	padding:0; }
+#custom-collapsible h3 a.ui-btn { width: 100%; height:30px;}
+
+
+#custom-collapsible h2 .ui-collapsible-heading {
+    margin: -10px -25px 0 !important;
+}
+
+#custom-list li:first-child {
+    margin-top: 0px!important;
+}
+
+#custom-list li:last-child  {
+    margin-bottom: -40px !important;
+}
+.liste #custom-list li:last-child  {
+    margin-bottom: 0px !important;
+}
+
+
+#custom-list {
+    margin: -10px -19px !important;
+}
+
+.ui-footer {
+	border: none !important;
+	border-top: 1px solid gray !important;
+}

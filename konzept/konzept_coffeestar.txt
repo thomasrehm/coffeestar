@@ -1,0 +1,95 @@
+CoffeeStar
+
+Überblick:
+
+Web-App zur Bewertung und Empfehlung von Cafés
+
+Allgemeine Funktionen:
+
+- Bewertung durch User
+- Empfehlung durch die App von Cafés im Umkreis
+- Gutscheinfunktion bei teilen und bewerten
+- Rabattfunktion
+- mobile Umgebungskarte
+- bewerten nur vor Ort möglich (Problematik bei Non-GPS Geräten)
+- Premium-Kritiker-Funktionen
+- "Entertain-Me-Button" Vorschläge von Cafés aufgrund von Nutzerverhalten
+
+Nutzertypen:
+
+- Standartnutzer
+- Admin
+- Redakteur
+- Kritiker (erfahrener Standartnutzer oder RealLifeKritiker)
+
+
+User-Funktionen:
+
+- Sternebewertungen für
+	- Café Qualität Geschmack
+	- Essen/Trinken
+	- Ambiente/Bedienung
+	+ 1x150 Zeichen Erklärung
+	
+	-> Aus Sternbewertungen ergibt sich die allgemeine Durschnitts-Bewertung
+
+- Checkboxen für Verfügbarkeit:
+	- Räumlichkeiten Innen/Außen
+	- Essen/Trinken:
+		- nur Cafe
+		- Kuchen
+		- Cocktails
+		...
+	
+- Klientel Dropdown:
+	Hipster, Greise, Business, Normalo
+
+
+User kann sich über Informationen über Cafés anzeigen lassen. Hier wird ganz deutlich zwischen
+Angemeldeten und nicht angemeldeten Nutzer unterschieden.
+
+Betreiber von Cafés haben die Möglichkeit Preislisten online zu stellen, auf ihre Webseite zu verlinken,
+Aktionen und Gutscheine anzupreisen.
+
+
+––––––––––––––––––––––––––––––
+
+Eine Bewertung abgeben = Bewertungen von 10 Bewerteten Cafés betrachten
+
+––––––––––––––––––––––––––––––
+
+
+
+
+--------
+
+
+Eingelogter User 
+
+hat vier Arbeitsstränge 
+-Umgebungssuche
+-Normale Suche (mit Suchfenster und Ort-bzw. Postleitzahlwahl)
+-neues Anlegen einer Bewertung
+-Einstellungen (Useraccount/Farbe/GPS-Zugriff/Favoriten etc.)
+
+
+––––––––––––––––––––––––––––––
+
+KPIs:
+- Anzahl Zugriffe auf Detailbewertungen/Zeitraum
+– Anzahl Logins/Zeitraum
+– Anzahl erstellte Bewertungen/Zeitraum
+– Anzahl Registrierungen
+– Prozentsatz Geschriebene Bewertungen zu Registrierte Nutzer
+
+––––––––––––––––––––––––––––––
+
+UX-Schwachpunkte: (nach Testing durch Kommilitonen)
+
+– Problem der Programmierung als Web-App: Cachen von Inhalten und bestimmte Suchen etc. nicht jedes mal neu Eingeben zu müssen
+
+AB-Testing:
+– Icons Menubar?
+– Gestensteuerungen erkennbar?
+– bei Neuanmeldung geführte Tour durch App, die man wegklicken kann
+– Wo befinde ich mich in der App? Durch bestimmte Elemente ersichtlich, diese verändern um die UX zu verbessern.
