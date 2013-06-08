@@ -72,7 +72,7 @@ $result = mysql_query($sql);
     
     <div data-inset="false"   data-type="horizontal"  data-iconpos="notext" data-position="fixed" class="foot">
        <div class="hinweis"  >
-        <p>Kaffeesüchtig?? Willst du mehr als die Standard-Cafés? Dann melde dich an.</p>
+        <p>Kaffeesüchtig?? Willst du mehruih als die Standard-Cafés? Dann melde dich an.</p>
        </div>
 
 
